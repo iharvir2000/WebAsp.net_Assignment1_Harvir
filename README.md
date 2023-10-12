@@ -1,45 +1,45 @@
 # WebAsp.net_Assignment1_Harvir
 
-Pen App - Harvir_Pen_Ass_1
-Project Duration: 2023-10-11 to 2023-10-12
+Date: 2023/10/11
+Time: 9:10AM
 
-Introduction
-2023-10-11, 09:00 AM: Today, I'm embarking on a new project for the "Pen App." This project, "Harvir_Pen_Ass_1," is an ASP.NET Core 3.1 web application that will showcase our range of pens. I'm documenting my progress, which includes both the successes and the errors encountered during development.
+Started the project by creating the MVC aaplication as Andrew describe in the class . My product was Pen , i will work around 
+Pen Fields completed the part1,2,3 of the link there was nothing much there . During this parts , i created the HelloWorkd file and 
+Projected certain output as it was shown in the link 
 
-Project Setup
-2023-10-11, 09:30 AM: I've set up the project, naming it "Harvir_Pen_Ass_1." To ensure version control and back up my work, I've created a GitHub repository at Pen App - Harvir_Pen_Ass_1 Repository.
+Now , it come for the main parts four in which created model/pen.cs in which i added the six field as per the requirement 
+Such as brand,color,price ,inkColor and id many more.
 
-2023-10-11, 10:00 AM: While configuring Individual User Accounts authentication, I encountered an issue. The initial setup took longer than expected due to an unexpected configuration problem.
+after that add the company name in the index.cshtml file with Pen App in the heading footer.
 
-Authentication and Security
-2023-10-11, 11:00 AM: Security is a top priority. After overcoming the authentication issue, I've successfully configured the application to use Individual User Accounts authentication, ensuring certain features are protected. Additionally, I've enabled HTTPS to enhance security.
+now we will do the nuget packaging in which we will run the commmands in the PMC application 
 
-Project Structure
-2023-10-11, 11:45 AM: To maintain a clean and organized codebase, I've adopted the Model-View-Controller (MVC) architecture for this project. This separation of concerns will make the application more maintainable.
+Runned successfully with the few errors which was resolved in the one-two hours 
 
-Product Catalog
-2023-10-11, 01:00 PM: The project now has a home page that reflects our company name, "Pen App." It also features a link to navigate to the product catalog.
+Scaffholding which was one of the diffcult part for me in the class so i hope i will do the scaffholding in first try 
+here 
 
-2023-10-11, 02:30 PM: Working on the product catalog, I encountered a formatting issue with product images. It took some time to resolve this problem, but it's now visually appealing with product images, customized styling, and unique color preferences.
+Runned the commads and we got the PenController.cs file in the first time Hurry.........
 
-About Us
-2023-10-11, 03:45 PM: I've created an "About Us" page that provides insights into "Pen App." It includes information about the company, corporate headquarters, staff, and a general description of our pens.
+I dont know how it happend but i think its a good sign i am learning new things and gaining experince from my pervious fails.
 
-2023-10-11, 04:30 PM: When implementing the "About Us" page, I faced a challenge with formatting. It took additional time to align the content properly.
+Checked the code and testing is also done and everything looking good so far now we will add the data in the my data by creating the SeedData.cs file 
 
-Database Seeding
-2023-10-11, 05:45 PM: To effectively showcase our pens, I've seeded the database with at least ten product items. Each pen has a minimum of six attributes, including customer reviews on a half-rating scale from 1 to 5 (poor to excellent).
+added 10 entry in the database and following the same steps as it was shown in the link and i think i am going in the right direction and i already added the rating field at first so now i have to not worry about that but i will do the search filed and filter. part from the link we use color as a filter part in the search filed and now we just got to do 
 
-2023-10-11, 06:30 PM: During the database seeding process, I encountered a data validation error. It was necessary to revisit the data seeding code and make the necessary corrections.
+Aboutus.cs and images with css styling 
 
-Project Files
-In the "Harvir_Pen_Ass_1" project, you'll find several key files, including:
+Aboutus File is done and add the nessearcy content just my company name and description of the company ,location , people working which all fictional i dont own this company or anything lol 
 
-Pen.cs: This model file defines the properties and attributes of our pens. It includes attributes such as name, price, ink color, tip type, material, weight, and customer reviews.
-Known Issues
-2023-10-12, 09:00 AM: While making progress, I encountered an issue with the product catalog. Some product details were not displaying correctly, causing confusion for users. I'm actively working on resolving this issue.
+We also did the index.cshtml and add the table link in it .
 
-2023-10-12, 10:30 AM: The database seeding error resurfaced, leading to incorrect data entries. This is a critical issue that requires immediate attention.
+add the styling in my css which just basic which was asked by the sir and didnt over do it 
 
-Future Improvements
-2023-10-12, 11:45 AM: Moving forward, I plan to address the known issues, enhance error handling, and improve the validation process. Additionally, I'll implement search and filtering options for the product catalog to enhance the user experience.
+and in the home page i add the few images in it and linked them i added the images by creating the wwroot in which created new folder img and add my all image in it.
+
+now we will do the final reviewing of the assignment and run each and everyhting with the table create , edit , delete and details link which is working good as i expected and i think i am ready to submit my assignment.
+
+Agian today i run the application did see any big error there was few errrors that i face during the assignment like in the database seeding and there was a first error which i faced while creating mvc application and it was brutal bt i figured it out some how and everything is good and perfrect.
+
+Thank you 
+
